@@ -1,0 +1,9 @@
+.bodyimg{
+    -fx-background-image: url("/img/jet1.jpg"); 
+    -fx-background-size: 100% 100% ;
+}
+.bodyimg2{
+    -fx-background-image: url("/img/jet2.jpg"); 
+    -fx-background-size: cover ;
+}
+

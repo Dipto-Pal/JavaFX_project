@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.effect.InnerShadow?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.paint.LinearGradient?>
+<?import javafx.scene.paint.Stop?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" fx:id="rootPane1" prefHeight="634.0" prefWidth="954.0" styleClass="bodyimg2" stylesheets="@style.css" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="final_project.SecondWindowController">
+   <children>
+      <Button fx:id="newGame" layoutX="70.0" layoutY="103.0" mnemonicParsing="false" onAction="#newGame" style="-fx-background-color: none;" text="New Game">
+         <font>
+            <Font name="Arial Bold Italic" size="36.0" />
+         </font>
+         <effect>
+            <DropShadow />
+         </effect>
+         <textFill>
+            <LinearGradient endX="0.8523809523809524" endY="1.0" startX="0.01904761904761905">
+               <stops>
+                  <Stop color="BLACK" />
+                  <Stop color="BLACK" offset="0.007662835249042145" />
+                  <Stop color="#e43232" offset="0.2183908045977011" />
+                  <Stop color="#d7d2d2" offset="0.3672236046924988" />
+                  <Stop color="#2b2a2a" offset="0.501718213058419" />
+                  <Stop color="#e33232" offset="0.6999644507643084" />
+                  <Stop color="#2c2b2b" offset="1.0" />
+               </stops>
+            </LinearGradient>
+         </textFill>
+      </Button>
+      <Button fx:id="score" layoutX="67.0" layoutY="211.0" mnemonicParsing="false" onAction="#score" prefHeight="66.0" prefWidth="240.0" style="-fx-background-color: none;" text="High Score">
+         <font>
+            <Font name="Arial Bold Italic" size="36.0" />
+         </font>
+         <effect>
+            <DropShadow />
+         </effect>
+         <textFill>
+            <LinearGradient endX="1.0" endY="1.0" startX="0.04761904761904762">
+               <stops>
+                  <Stop color="#63e463" />
+                  <Stop color="#6141ff" offset="0.40419480981158873" />
+                  <Stop color="#2b2b2b" offset="0.6283524904214559" />
+                  <Stop color="#d627ce" offset="0.8467432950191569" />
+                  <Stop color="#d627ce" offset="1.0" />
+               </stops>
+            </LinearGradient>
+         </textFill>
+      </Button>
+      <Button fx:id="Level" layoutX="70.0" layoutY="301.0" mnemonicParsing="false" onAction="#Level" prefHeight="66.0" prefWidth="233.0" style="-fx-background-color: none;" text="Level">
+         <font>
+            <Font name="Arial Bold Italic" size="36.0" />
+         </font>
+         <effect>
+            <DropShadow />
+         </effect>
+         <textFill>
+            <LinearGradient endX="1.0" endY="1.0">
+               <stops>
+                  <Stop color="#fa2038" />
+                  <Stop color="#fa2038" offset="0.16858237547892715" />
+                  <Stop color="WHITE" offset="0.4099616858237547" />
+                  <Stop color="#336fdd" offset="0.740253584547932" />
+                  <Stop color="#336fdd" offset="1.0" />
+               </stops>
+            </LinearGradient>
+         </textFill>
+      </Button>
+      <Button fx:id="exit" layoutX="62.0" layoutY="498.0" mnemonicParsing="false" onAction="#exit" prefHeight="66.0" prefWidth="233.0" style="-fx-background-color: none;" text="Exit">
+         <font>
+            <Font name="Arial Bold Italic" size="36.0" />
+         </font>
+         <effect>
+            <DropShadow />
+         </effect>
+         <textFill>
+            <LinearGradient endX="1.0" endY="1.0" startX="0.1619047619047619">
+               <stops>
+                  <Stop color="WHITE" />
+                  <Stop color="WHITE" offset="0.0613026819923371" />
+                  <Stop color="BLACK" offset="0.375478927203065" />
+                  <Stop color="BLACK" offset="0.5729351818935892" />
+                  <Stop color="WHITE" offset="0.8199233716475094" />
+                  <Stop color="WHITE" offset="1.0" />
+               </stops>
+            </LinearGradient>
+         </textFill>
+      </Button>
+      <Button fx:id="help" layoutX="70.0" layoutY="399.0" mnemonicParsing="false" onAction="#help" prefHeight="66.0" prefWidth="233.0" style="-fx-background-color: none;" text="Help">
+         <font>
+            <Font name="Arial Bold Italic" size="36.0" />
+         </font>
+         <effect>
+            <DropShadow />
+         </effect>
+         <textFill>
+            <LinearGradient endX="1.0" endY="1.0" startX="0.27142857142857146">
+               <stops>
+                  <Stop color="#ff9f9f" />
+                  <Stop color="#ff9f9f" offset="0.1494252873563218" />
+                  <Stop color="#6cff14" offset="0.36015325670498083" />
+                  <Stop color="#f3ff08" offset="0.7221629734960695" />
+                  <Stop color="#f3ff08" offset="1.0" />
+               </stops>
+            </LinearGradient>
+         </textFill>
+      </Button>
+   </children>
+   <effect>
+      <InnerShadow />
+   </effect>
+</AnchorPane>

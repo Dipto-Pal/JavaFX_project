@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.effect.InnerShadow?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.paint.LinearGradient?>
+<?import javafx.scene.paint.Stop?>
+<?import javafx.scene.shape.CubicCurve?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" fx:id="rootPane2" prefHeight="634.0" prefWidth="946.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="final_project.HelpViewController">
+   <children>
+      <Line endX="-56.0865478515625" layoutX="809.0" layoutY="103.0" startX="-108.0" strokeWidth="5.0" />
+      <CubicCurve controlX1="96.0" controlX2="14.0" controlY1="60.0" controlY2="42.0" endX="14.0" endY="42.0" layoutX="740.0" layoutY="44.0" startX="14.0" startY="76.0" stroke="BLACK">
+         <fill>
+            <LinearGradient endX="1.0" endY="1.0" startX="0.1">
+               <stops>
+                  <Stop color="#d3ff0e" />
+                  <Stop color="#d3ff0e" offset="0.007662835249042145" />
+                  <Stop color="#241b20" offset="0.1616305249437137" />
+                  <Stop color="#eb0000" offset="0.31623020105067745" />
+                  <Stop color="#beeb00" offset="0.7633605877473632" />
+                  <Stop color="#251c20" offset="0.9731800766283525" />
+                  <Stop color="#251c20" offset="1.0" />
+               </stops>
+            </LinearGradient>
+         </fill></CubicCurve>
+      <Line endX="-47.0" layoutX="835.0" layoutY="298.0" startX="-108.0" strokeWidth="5.0" />
+      <CubicCurve controlX1="14.0" controlX2="-83.0" controlY1="77.0" controlY2="67.0" endX="14.0" endY="51.0" layoutX="721.0" layoutY="235.0" startX="14.0" startY="77.0" stroke="BLACK">
+         <fill>
+            <LinearGradient endX="1.0" endY="1.0" startX="0.1">
+               <stops>
+                  <Stop color="#d3ff0e" />
+                  <Stop color="#d3ff0e" offset="0.007662835249042145" />
+                  <Stop color="#241b20" offset="0.1616305249437137" />
+                  <Stop color="#eb0000" offset="0.31623020105067745" />
+                  <Stop color="#beeb00" offset="0.7633605877473632" />
+                  <Stop color="#251c20" offset="0.9731800766283525" />
+                  <Stop color="#251c20" offset="1.0" />
+               </stops>
+            </LinearGradient>
+         </fill></CubicCurve>
+      <Label layoutX="297.0" layoutY="56.0" prefHeight="91.0" prefWidth="336.0" style="-fx-background-color: none;" text="For Right Move">
+         <font>
+            <Font name="Arial Black" size="40.0" />
+         </font>
+         <effect>
+            <InnerShadow />
+         </effect>
+         <textFill>
+            <LinearGradient endX="1.0" endY="1.0" startX="0.1">
+               <stops>
+                  <Stop color="#322f2f" />
+                  <Stop color="#322f2f" offset="0.019157088122605363" />
+                  <Stop color="#f5c116" offset="0.09941936248370661" />
+                  <Stop color="#eb0000" offset="0.2337164750957849" />
+                  <Stop color="#eb00a8" offset="0.40435280641466204" />
+                  <Stop color="#0d31ff" offset="0.622862108464668" />
+                  <Stop color="#0fffeb" offset="0.7900225145159377" />
+                  <Stop color="WHITE" offset="0.8901528617134727" />
+                  <Stop color="#21ee47" offset="1.0" />
+               </stops>
+            </LinearGradient>
+         </textFill>
+      </Label>
+      <Label layoutX="309.0" layoutY="256.0" prefHeight="91.0" prefWidth="336.0" style="-fx-background-color: none;" text="For Left Move">
+         <font>
+            <Font name="Arial Black" size="40.0" />
+         </font>
+         <effect>
+            <InnerShadow />
+         </effect>
+         <textFill>
+            <LinearGradient endX="1.0" endY="1.0" startX="0.1">
+               <stops>
+                  <Stop color="#d3ff0e" />
+                  <Stop color="#d3ff0e" offset="0.007662835249042145" />
+                  <Stop color="#00f2ff" offset="0.16091954022988506" />
+                  <Stop color="#eb5600" offset="0.3295019157088117" />
+                  <Stop color="WHITE" offset="0.48019117588971827" />
+                  <Stop color="#eb00c6" offset="0.6189121933878422" />
+                  <Stop color="#26ff00" offset="0.7353951890034364" />
+                  <Stop color="#251c20" offset="1.0" />
+               </stops>
+            </LinearGradient>
+         </textFill>
+      </Label>
+      <Button fx:id="ok" layoutX="383.0" layoutY="452.0" mnemonicParsing="false" onAction="#ok" prefHeight="92.0" prefWidth="165.0" style="-fx-background-color: none;" text="OK">
+         <font>
+            <Font name="Bauhaus 93" size="51.0" />
+         </font>
+         <effect>
+            <DropShadow />
+         </effect>
+         <textFill>
+            <LinearGradient endX="1.0" endY="1.0" startX="0.1">
+               <stops>
+                  <Stop color="#322f2f" />
+                  <Stop color="#322f2f" offset="0.20689655172413793" />
+                  <Stop color="#f2f2f2" offset="0.35632183908045956" />
+                  <Stop color="#eb0000" offset="0.5231267527748151" />
+                  <Stop color="#eb0000" offset="0.5501046727495359" />
+                  <Stop color="WHITE" offset="0.6553304103961761" />
+                  <Stop color="#383d46" offset="0.6590038314176241" />
+                  <Stop color="#383d46" offset="1.0" />
+               </stops>
+            </LinearGradient>
+         </textFill>
+      </Button>
+   </children>
+   <effect>
+      <InnerShadow />
+   </effect>
+</AnchorPane>
